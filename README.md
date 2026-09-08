@@ -110,7 +110,7 @@ The application follows a modular analytics architecture:
 
 ---
 
-# 🛠️ Technology Stack
+#  Technology Stack
 
 | Technology | Purpose |
 |---|---|
@@ -126,7 +126,7 @@ The application follows a modular analytics architecture:
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 Recommended production-style structure:
 
@@ -171,7 +171,7 @@ PRODUCT_CANNIBALIZATION/
 
 ---
 
-# 📥 Data Input
+#  Data Input
 
 The application supports the following file formats:
 
@@ -203,7 +203,7 @@ The application performs data-type conversion and feature engineering before ana
 
 ---
 
-# ⚙️ Data Processing Pipeline
+#  Data Processing Pipeline
 
 The data pipeline follows these stages:
 
@@ -243,7 +243,7 @@ Business Insights
 
 ---
 
-# 🔧 Feature Engineering
+#  Feature Engineering
 
 The application creates analytical features including:
 
@@ -278,7 +278,7 @@ The revenue-sacrifice measure should be interpreted as a **price-discount proxy*
 
 ---
 
-# 📊 Dashboard Features
+#  Dashboard Features
 
 ## 1. Executive KPI Dashboard
 
@@ -675,7 +675,7 @@ The application will open in your browser.
 
 ---
 
-# 🖥️ Dashboard Workflow
+#  Dashboard Workflow
 
 ```text
 1. Launch Application
@@ -705,7 +705,7 @@ The application will open in your browser.
 
 ---
 
-# 📸 Screenshots
+#  Screenshots
 
 Add dashboard screenshots to the repository:
 
@@ -728,7 +728,7 @@ Then reference them in this README:
 
 ---
 
-# 📤 Exporting Results
+#  Exporting Results
 
 The dashboard provides CSV downloads for major analytical outputs.
 
@@ -746,7 +746,7 @@ This allows analysts to continue analysis outside the Streamlit environment.
 
 ---
 
-# 🧪 Testing Strategy
+#  Testing Strategy
 
 A production version of the project should include automated tests.
 
@@ -777,7 +777,7 @@ def test_cannibalization_thresholds():
 
 ---
 
-# 🔐 Data Privacy
+#  Data Privacy
 
 Do not commit confidential company or customer information to GitHub.
 
@@ -941,7 +941,7 @@ Add an appropriate license before distributing the repository publicly.
 
 #  Author
 
-**Data Analytics & Data Science Portfolio Project**
+** EYONG-ENEKE **
 
 Built with:
 
