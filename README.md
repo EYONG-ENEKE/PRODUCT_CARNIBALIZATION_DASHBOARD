@@ -1,4 +1,4 @@
-# 📊 Product Cannibalization Analytics Dashboard
+# Product Cannibalization Analytics Dashboard
 
 ## Overview
 
@@ -20,7 +20,7 @@ The application transforms raw promotional data into an interactive business int
 
 ---
 
-# 🎯 Business Problem
+# Business Problem
 
 Frequent and deep promotional activity can create several business risks.
 
@@ -36,7 +36,7 @@ The objective of this project is to provide an analytical framework for identify
 
 ---
 
-# 🚀 Project Objectives
+#  Project Objectives
 
 The dashboard is designed to answer questions such as:
 
@@ -67,7 +67,7 @@ The dashboard is designed to answer questions such as:
 
 ---
 
-# 🏗️ Project Architecture
+#  Project Architecture
 
 The application follows a modular analytics architecture:
 
@@ -618,7 +618,7 @@ The dashboard can support promotional decision-making by helping organizations:
 Clone the repository:
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/EYONG-ENEKE/PRODUCT_CARNIBALIZATION_DASHBOARD>
 cd PRODUCT_CANNIBALIZATION
 ```
 
@@ -627,7 +627,7 @@ Create a virtual environment:
 ### Windows
 
 ```bash
-python -m venv venv
+python -m streamlit run "E:\PRODUCT_CARNIBALIZATION_DASHBOARD\PRODUCT_CARNIBALIZATION_DASHBOARD\DASHBOARD.py"
 venv\Scripts\activate
 ```
 
