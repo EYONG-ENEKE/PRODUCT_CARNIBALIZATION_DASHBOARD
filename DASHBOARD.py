@@ -71,7 +71,7 @@ st.set_page_config(
 # =============================================================================
 
 def apply_dashboard_style() -> None:
-    """Apply lightweight CSS styling to the Streamlit application."""
+    """Applying  lightweight CSS styling to the Streamlit application."""
 
     st.markdown(
         """
@@ -951,7 +951,7 @@ def render_kpis(
 
     with col4:
         st.metric(
-            "Customer Savings",
+            "Customer Savings(AED)",
             f"{metrics['customer_savings']:,.2f}",
         )
 
@@ -1228,14 +1228,14 @@ def main() -> None:
     with col1:
 
         st.metric(
-            "Customer Savings",
+            "Customer Savings(AED)",
             f"{financial_metrics['customer_savings']:,.2f}",
         )
 
     with col2:
 
         st.metric(
-            "Company Revenue Sacrifice",
+            "Company Revenue Sacrifice(AED)",
             f"{financial_metrics['revenue_sacrifice']:,.2f}",
         )
 
@@ -1251,7 +1251,8 @@ def main() -> None:
 
         else:
 
-            verdict = "Company Retains More Value"
+            verdict ='Company Retains More Value'
+        
 
         st.metric(
             "Value Transfer Verdict",

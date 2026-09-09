@@ -77,34 +77,35 @@ The application follows a modular analytics architecture:
                     └──────────────┬──────────────┘
                                    │
                     ┌──────────────▼──────────────┐
-                    │       Dashboard Filters      │
+                    │       Dashboard Filters     │
                     └──────────────┬──────────────┘
                                    │
                     ┌──────────────▼──────────────┐
-                    │      Analytics Engine         │
-                    │                              │
-                    │ • KPI Analysis               │
-                    │ • Risk Analysis              │
-                    │ • Financial Analysis         │
-                    │ • Cannibalization Analysis   │
+                    │      Analytics Engine       │
+                    │                             │
+                    │        KPI :                |  
+                    | • Promotion Analysis        │
+                    │ • Risk Analysis             │
+                    │ • Financial Analysis        │
+                    │ • Cannibalization Analysis  │
                     └──────────────┬──────────────┘
                                    │
                     ┌──────────────▼──────────────┐
-                    │     Feature Engineering       │
-                    │                              │
-                    │ • Date Features              │
-                    │ • Promotion Duration          │
-                    │ • Revenue Sacrifice          │
-                    │ • Monthly Features           │
+                    │     Feature Engineering     │
+                    │                             │
+                    │ • Date Features             │
+                    │ • Promotion Duration        │
+                    │ • Revenue Sacrifice         │
+                    │ • Monthly Features          │
                     └──────────────┬──────────────┘
                                    │
                     ┌──────────────▼──────────────┐
-                    │      Data Validation          │
+                    │      Data Validation        │
                     └──────────────┬──────────────┘
                                    │
                     ┌──────────────▼──────────────┐
-                    │       Data Ingestion          │
-                    │ CSV / TXT / XLSX / XLS       │
+                    │       Data Ingestion        │
+                    │ CSV / TXT / XLSX / XLS      │
                     └─────────────────────────────┘
 ```
 
