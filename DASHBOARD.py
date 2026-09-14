@@ -21,6 +21,7 @@ import streamlit as st
 APP_TITLE = "PRODUCT CANNIBALIZATION ANALYTICS"
 APP_ICON = "📊"
 
+
 DEFAULT_DATA_PATH = Path(
     r"E:\PRODUCT_CARNIBALIZATION_DASHBOARD\PRODUCT_CARNIBALIZATION_DASHBOARD\processesd_data\processed_data.csv"
 )
@@ -758,6 +759,7 @@ def main() -> None:
     apply_dashboard_style()
     st.title(f"{APP_ICON} {APP_TITLE}")
     st.caption("Promotional strategy, financial impact, assortment roles, and professional cannibalization intelligence")
+    st.caption("Author : EYONG-ENEKE")
 
     uploaded_file = st.file_uploader("Upload Promotional Dataset", type=["csv", "txt", "xlsx", "xls"])
 
@@ -965,7 +967,6 @@ def main() -> None:
 
     st.divider()
     st.caption("Product Cannibalization Analytics |Promotional Intelligence Dashboard")
-    st.caption("Author : EYONG-ENEKE")
 
 if __name__ == "__main__":
     main()
