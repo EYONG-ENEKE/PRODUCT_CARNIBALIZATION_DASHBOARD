@@ -472,7 +472,7 @@ def render_dynamic_executive_insights(df: pd.DataFrame, matrix_df: pd.DataFrame,
 
     summary_html = f"""
     <div class="executive-box">
-        <b>💡 Dynamic Executive Portfolio Summary:</b><br>
+        <b>Dynamic Executive Portfolio Summary:</b><br>
         • Analyzed <b>{total_promos:,}</b> promotional events across active categories, led by high activity in <b>{top_cat}</b>.<br>
         • Identified <b>{chronic_count}</b> products with <i>Chronic Cannibalization Risk</i> and <b>{victim_count}</b> <i>Potentially Vulnerable Sibling Products</i> experiencing activity decline.<br>
         • Total potential price reduction value stands at <b>AED {fin['price_reduction_value']:,.2f}</b> against customer price benefits of <b>AED {fin['customer_savings']:,.2f}</b>.
@@ -680,7 +680,7 @@ def plot_category_role_distribution(role_df: pd.DataFrame):
 # =============================================================================
 
 def render_sidebar_filters(df: pd.DataFrame):
-    st.sidebar.markdown(f"<h2 style='color: {PALETTE['primary']}; font-size: 1.3rem;'>🔍 Dashboard Controls</h2>", unsafe_allow_html=True)
+    st.sidebar.markdown(f"<h2 style='color: {PALETTE['primary']}; font-size: 1.3rem;'>Dashboard Controls</h2>", unsafe_allow_html=True)
     
     min_date = df["START_DATE"].min().date()
     max_date = df["END_DATE"].max().date()
@@ -709,7 +709,7 @@ def render_sidebar_filters(df: pd.DataFrame):
 
     # What-If Simulation Sidebar Section
     st.sidebar.markdown("---")
-    st.sidebar.markdown(f"<h3 style='color: {PALETTE['primary']}; font-size: 1.1rem;'>🔮 Promo Simulation Engine</h3>", unsafe_allow_html=True)
+    st.sidebar.markdown(f"<h3 style='color: {PALETTE['primary']}; font-size: 1.1rem;'>Promo Simulation Engine</h3>", unsafe_allow_html=True)
     sim_depth_adjustment = st.sidebar.slider("Adjust Discount Depth (%)", -20, 20, 0, step=1, help="Simulate margin and revenue shift by modifying overall promotion depth.")
 
     return {
@@ -816,7 +816,7 @@ def main() -> None:
     with col_dl1:
         html_report = generate_html_report(filtered_df, matrix_df, victim_df)
         st.download_button(
-            label="📄 Download Executive HTML Report",
+            label="Download Executive HTML Report",
             data=html_report,
             file_name="executive_cannibalization_report.html",
             mime="text/html",
@@ -825,7 +825,7 @@ def main() -> None:
     with col_dl2:
         excel_bytes = generate_excel_report(filtered_df, matrix_df, victim_df, role_df)
         st.download_button(
-            label="📊 Download Multi-Sheet Enterprise Excel Workbook",
+            label="Download Multi-Sheet Enterprise Excel Workbook",
             data=excel_bytes,
             file_name="cannibalization_enterprise_export.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
@@ -838,10 +838,10 @@ def main() -> None:
     # TABBED NAVIGATION WORKSPACE
     # =========================================================================
     tab1, tab2, tab3, tab4 = st.tabs([
-        "📊 Executive Overview & Financials", 
-        "🏷️ Promotion & Channel Strategy", 
-        "⚠️ Cannibalization Matrix", 
-        "🛒 Assortment & Vulnerability"
+        "Executive Overview & Financials", 
+        "Promotion & Channel Strategy", 
+        "Cannibalization Matrix", 
+        "Assortment & Vulnerability"
     ])
 
     # -------------------------------------------------------------------------
